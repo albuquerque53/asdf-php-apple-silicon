@@ -1,13 +1,13 @@
 # asdf-php
 
+**⚠️ Disclaimer:** This is just a fork from https://github.com/asdf-community/asdf-php I've created this because the original one does not supports Apple Silicon processors.
+
+There are a [PR in the forked repo to fix this](https://github.com/asdf-community/asdf-php/pull/116), but it is not merged yet.
+
 [PHP](https://www.php.net) plugin for asdf version manager
 
 _Original version of this plugin created by
 [@Stratus3D](https://github.com/Stratus3D)_
-
-## Build History
-
-[![Build history](https://buildstats.info/github/chart/asdf-community/asdf-php?branch=master)](https://github.com/asdf-community/asdf-php/actions)
 
 ## Prerequirements
 
@@ -21,7 +21,7 @@ for us to support them.
 ## Installation
 
 ```bash
-asdf plugin-add php https://github.com/asdf-community/asdf-php.git
+asdf plugin-add php https://github.com/albuquerque53/asdf-php-apple-silicon.git
 ```
 
 ## Note
